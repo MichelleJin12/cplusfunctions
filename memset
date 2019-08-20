@@ -1,0 +1,7 @@
+memset함수는 배열같은 것들을 초기화하고 싶을 때 쓰는 함수
+void* memset(void* ptr, int value, size_t num);
+int형은 내부에서 unsigned char (1byte)로 변환되어서 저장된다고 한다..(무슨말인지 잘 모르겠다)
+memset(시작주소, 채우고싶은값, 메모리크기(sizeof));
+이렇게 씀....
+
+dfs를 반복할 때 전역변수로 선언한 배열을 다시 초기화할 때 쓴다.

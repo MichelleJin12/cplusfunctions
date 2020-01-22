@@ -1,0 +1,2 @@
+if array is integer array,
+sizeof(arrayname)/sizeof(int)

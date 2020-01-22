@@ -1,0 +1,2 @@
+if you want to input space,
+std::cin.getline(arrayname, size);
